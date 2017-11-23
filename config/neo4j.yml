@@ -10,4 +10,4 @@ test:
 
 production:
   type: http
-  url: http://neo4j:password@localhost:7000
+  url: http://neo4j:neo4jadmin@localhost:7687

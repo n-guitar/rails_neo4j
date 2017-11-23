@@ -12,7 +12,7 @@ module SampleNeo4j
     config.load_defaults 5.1
     
     config.neo4j.session_type = :http
-    config.neo4j.session_path = ENV['NEO4J_URL'] || 'http://neo4j:Password1@localhost:7474'
+    config.neo4j.session_path = ENV['NEO4J_URL'] || 'http://neo4j:neo4jadmin@localhost:7474'
     config.generators { |g| g.orm :neo4j }
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
